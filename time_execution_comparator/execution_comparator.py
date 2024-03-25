@@ -35,6 +35,14 @@ class ExecutionComparator:
         manager = Manager()
         self.return_values = manager.dict()
 
+    def reset(self):
+        self.table = TwoEntryTable()
+        self.table.add_column_names("Total\nExecution\nTime", "Average\nTime", "Max\nTime\nExecution",
+                                    "Min\nTime\nExecution", "Difference", "Iterations")
+        self.table.title = "Time\nCalculator"
+        manager = Manager()
+        self.return_values = manager.dict()
+
     def compare_execution(self, *args: typing.Callable, iterations: int = 1):
         processes = []
         for func in args:
