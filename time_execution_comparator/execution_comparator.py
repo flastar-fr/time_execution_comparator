@@ -20,14 +20,17 @@ def run_test(return_values: dict, func: typing.Callable, iterations: int = 1):
     total_time = sum(total_times)
     average_time = sum(total_times) / iterations
     function_name = func.__name__
+    max_time = max(total_times)
+    min_time = min(total_times)
 
-    return_values[function_name] = [total_time, average_time]
+    return_values[function_name] = [total_time, average_time, max_time, min_time, max_time-min_time]
 
 
 class ExecutionComparator:
     def __init__(self):
         self.table = TwoEntryTable()
-        self.table.add_column_names("Total\nExecution\nTime", "Average\nTime", "Iterations")
+        self.table.add_column_names("Total\nExecution\nTime", "Average\nTime", "Max\nTime\nExecution",
+                                    "Min\nTime\nExecution", "Difference", "Iterations")
         self.table.title = "Time\nCalculator"
         manager = Manager()
         self.return_values = manager.dict()
@@ -44,6 +47,7 @@ class ExecutionComparator:
 
         for k, v in self.return_values.items():
             self.table.add_line_names(k)
+            v = [f"{val: .4E}" if isinstance(val, float) else val for val in v]
             self.table.add_values(k, v + [iterations])
 
         return str(self.table)
