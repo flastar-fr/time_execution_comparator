@@ -1,5 +1,8 @@
 Import ExecutionComparator class and use compare_execution that takes functions as arguments and iterations.
+
 You need to install the easy-console-libary
+
+Make sure that your functions don't need arguments
 
 Example :
 ```py
