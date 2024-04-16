@@ -1,6 +1,7 @@
 Import ExecutionComparator class and use compare_execution that takes functions as arguments and iterations.
 
-You need to install the easy-console-libary
+You need to install the easy-console-libary. 
+You also need the tqdm library (if you don't want to use it, check the versions before it gets used).
 
 Make sure that your functions don't need arguments
 
