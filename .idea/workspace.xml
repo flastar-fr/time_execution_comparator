@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f25dc6e-a34d-431b-bbde-1dece66ab9c4" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/LICENCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_execution_comparator/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/time_execution_comparator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_execution_comparator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/time_execution_comparator/execution_comparator.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_execution_comparator/execution_comparator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/flastar-fr/time_execution_comparator.git&quot;,
-    &quot;accountId&quot;: &quot;0a9b4e5a-e0c7-41e0-acaa-296e898a6348&quot;
+    &quot;accountId&quot;: &quot;32f58afb-cb77-4645-9b8b-3a2feccbe0fb&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -58,22 +63,27 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hugob/Desktop/fourre tout/time_execution_comparator&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hugob/Desktop/dév/time_execution_comparator&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hugob\dév\time_execution_comparator" />
       <recent name="C:\Users\hugob\Desktop\fourre tout\time_execution_comparator" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hugob\Desktop\dév" />
+      <recent name="C:\Users\hugob\dév\time_execution_comparator\time_exec_comp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="time_execution_comparator" />
       <option name="ENV_FILES" value="" />
@@ -111,7 +121,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time_execution_comparator/execution_comparator.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\hugob\dév\time_execution_comparator\time_exec_comp\execution_comparator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.execution_comparator" />
         <item itemvalue="Python.example" />
       </list>
@@ -178,8 +188,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
-        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -198,6 +208,13 @@
       <workItem from="1714574713366" duration="428000" />
       <workItem from="1714578899940" duration="16000" />
       <workItem from="1728409465181" duration="4103000" />
+      <workItem from="1728579392568" duration="31000" />
+      <workItem from="1728579536600" duration="824000" />
+      <workItem from="1728580764880" duration="718000" />
+      <workItem from="1728581585845" duration="62000" />
+      <workItem from="1728581655876" duration="503000" />
+      <workItem from="1728582171348" duration="219000" />
+      <workItem from="1728582399970" duration="1961000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -243,5 +260,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/time_execution_comparator$main.coverage" NAME="main Coverage Results" MODIFIED="1728417077531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/time_execution_comparator$test.coverage" NAME="test Coverage Results" MODIFIED="1728582490189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

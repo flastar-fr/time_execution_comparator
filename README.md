@@ -8,6 +8,7 @@ Make sure that your functions don't need arguments
 Call ``reset`` method to start again
 
 Example :
+
 ```py
 import random
 
